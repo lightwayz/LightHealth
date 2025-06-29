@@ -31,6 +31,8 @@ const RegisterForm = ({ user }: { user: User }) => {
   const [isLoading, setIsLoading] = useState(false);
 
   // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
   const form
  = useForm<z.infer<typeof PatientFormValidation>>({
     resolver: zodResolver(PatientFormValidation),
